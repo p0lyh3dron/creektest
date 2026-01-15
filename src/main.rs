@@ -7,5 +7,7 @@ fn main() {
 
     loop {
         _ = script.exec("update();");
+
+        graphics.update();
     }
 }
