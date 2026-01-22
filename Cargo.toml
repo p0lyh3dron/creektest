@@ -4,4 +4,4 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-creek = {path = "../creek", features = ["luajit", "vulkan"]}
+creek = {path = "../creek", features = ["use_luajit", "use_vulkan", "use_rodio"]}
